@@ -1,0 +1,73 @@
+body html{
+  transition-delay: 2s;
+}
+
+
+body{
+  background-image: url(pictures/body.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  transition: 2s;
+}
+.logo{
+  position: absolute;
+  paddinin:-10px;
+  margin:0;
+
+}
+
+.navigation li{
+  float:right;
+  color: white;
+  list-style-type: none;
+
+}
+.navigation a{
+  text-decoration: none;
+  padding: 0 40px;
+  color: #008ae6;
+  font-family:'microsoft new tai lue';
+  border-size:20px ;
+  border-color: black;
+
+
+
+}
+.navigation a:hover{
+  background-color:lightblue;
+  color: #ffffff;
+  transition: 1s;
+  height: 10px;
+  padding: 10px 40px;
+
+
+}
+.current{
+  border-bottom: 3px solid lightblue;
+  width:10px;
+}
+
+.sub{
+  color:white;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+.sub h1{
+  color: white;
+  text-align: center;
+  position: relative;
+  left:200px;
+  font-size: 4rem;
+  font-family: "gabriola";
+
+}
+
+.sub p{
+  font-size: 20px;
+  font-family: 'tahoma';
+  padding-top: -20px;
+  margin-top: -28px;
+}

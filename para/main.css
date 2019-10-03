@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  font-family: 'Poppins',sans-serif;
+}
+
+.banner{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(pictures/band.jpg);
+  background-attachment: fixed; //this is the parallax effect
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.banner .info-heading{
+  position: absolute;
+  height: auto;
+  width: 80%;
+  top: 85%;
+  left: 20%;
+  transform: translate(-20%,-25%);
+
+}
+
+.banner .info-heading .heading {
+  position: relative;
+  height: auto;
+  width: 50%;
+  font-size: 68px;
+  font-weight: 700;
+
+
+}
